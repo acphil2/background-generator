@@ -6,6 +6,11 @@ body {
     letter-spacing: .5em;
     top: 15%;
 	background: linear-gradient(to right, #4287f5 , #ff9838); /* Standard syntax */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 h1 {
